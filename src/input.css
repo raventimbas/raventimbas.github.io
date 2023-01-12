@@ -115,6 +115,31 @@
         items-center  shadow-lg
         bg-white dark:bg-primary-gray
         rounded overflow-hidden
+    }
+
+    .label-dark{
+        @apply
+        text-black dark:text-white
 
     }
+
+    .input-dark{
+        @apply
+        text-black dark:text-black
+        bg-primary-white dark:bg-primary-white
+    }
+
+    .contact-bg{
+        @apply
+        bg-primary-white dark:bg-primary-black
+    }
+
+    .contact-card{
+        @apply
+        items-center  shadow-lg
+        rounded-lg
+        bg-white dark:bg-primary-gray
+    }
+
+
 }
